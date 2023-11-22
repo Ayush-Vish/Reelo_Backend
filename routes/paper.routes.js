@@ -1,6 +1,6 @@
 import express from "express";
 
-import { createPaper , storeQuestion} from "../controllers/paper.controller.js";
+import { createPaper , storeQuestion } from "../controllers/paper.controller.js";
 
 const router = express.Router();
 

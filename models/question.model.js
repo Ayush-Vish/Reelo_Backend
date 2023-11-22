@@ -2,10 +2,22 @@ import mongoose from "mongoose"
 
 const QuestionsSchema  = new mongoose.Schema({
 
-    question:String, 
-    subject :String, 
-    topic : String, 
-    difficulty: String,
+    question:{
+        type: String ,
+        lowercase:true
+    }, 
+    subject :{
+        type: String ,
+        lowercase:true
+    }, 
+    topic : {
+        type: String ,
+        lowercase:true
+    }, 
+    difficulty: {
+        type : String, 
+        lowercase : true
+    },
     marks: Number
 })
 

@@ -5,13 +5,13 @@
 1. Clone this repository
 
 ```bash
-    git clone 
+    git clone https://github.com/Ayush-Vish/Reelo_Backend.git
 ```
 
 2.Change the directory 
 
 ```bash
-    cd 
+    cd Reelo_Backend
 ```
 
 3. Install the dependencies

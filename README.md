@@ -20,7 +20,7 @@
     npm install 
 ```
 
-4. Make a .env file and copy content of .env.example
+4. Make a .env file and copy content of .env.example and add MONGO_URI
 
 ```bash
     touch .env
